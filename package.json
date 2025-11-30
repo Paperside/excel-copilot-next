@@ -1,0 +1,15 @@
+{
+  "name": "excel-copilot-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter backend dev & pnpm --filter frontend dev",
+    "build": "pnpm --filter backend build && pnpm --filter frontend build",
+    "test": "pnpm --filter backend test && pnpm --filter python-executor test",
+    "clean": "pnpm --filter backend clean && pnpm --filter frontend clean"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "prettier": "^3.4.2"
+  }
+}
