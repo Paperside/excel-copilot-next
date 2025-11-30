@@ -1,3 +1,5 @@
+# !!! AI瞎写的，跑不起来，别拉
+
 # Excel Copilot - AI驱动的Excel分析助手
 
 一个基于AI的Excel数据分析和处理应用,支持自然语言交互、Python代码执行和Excel文件操作。
